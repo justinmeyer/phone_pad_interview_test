@@ -100,7 +100,8 @@ while(status == "not enough"){
   # "not enough" to "enough" so that the while loop will stop
   if((length(number_1) + length(number_2) + length(number_3) == 9 & length(unique(combinations)) == 27) | 
      (length(number_1) + length(number_2) + length(number_3) == 10 & length(unique(combinations)) == 36) |
-     (length(number_1) + length(number_2) + length(number_3) == 11 & length(unique(combinations)) == 48)){
+     (length(number_1) + length(number_2) + length(number_3) == 11 & length(unique(combinations)) == 48) |
+     (length(number_1) + length(number_2) + length(number_3) == 11 & length(unique(combinations)) == 64)){
     status <- "all possible"
     }
   
